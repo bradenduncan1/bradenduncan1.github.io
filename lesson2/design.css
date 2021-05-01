@@ -1,0 +1,129 @@
+main
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
+}
+
+header
+{
+    text-align: center;
+    background:rgb(247, 101, 43);
+}
+
+main h3, h4
+{
+    border-bottom: solid .5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.s1 , .s2, .s3
+{
+    background-color: rgb(172, 172, 172);
+    border: solid 1px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1, .image2, .image3
+{
+    padding: 1em;
+}
+
+p
+{
+    padding: 1em;
+    font-family: "Noto Sans", "Open Sans", sans-serif;
+}
+
+footer
+{
+    background-color: rgb(172, 172, 172);
+    margin-top: 2em;
+    text-align: center;
+}
+
+@media only screen and (min-width: 37em) {
+
+header
+{
+    text-align: center;
+    background:rgb(247, 101, 43);
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.s1 , .s2, .s3
+{
+    background-color: rgb(172, 172, 172);
+    border: solid 1px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1, .image2, .image3
+{
+    padding: 1em;
+}
+
+footer
+{
+    background-color: rgb(172, 172, 172);
+    margin-top: 2em;
+    text-align: center;
+}
+}
+
+
+
+
+
+@media only screen and (min-width: 60em) {
+
+header
+{
+    text-align: center;
+    background:rgb(247, 101, 43);
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+
+.s1 , .s2, .s3
+{
+    background-color: rgb(172, 172, 172);
+    border: solid 1px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1, .image2, .image3
+{
+    padding: 1em;
+}
+
+footer
+{
+    background-color: rgb(172, 172, 172);
+    border: solid 1px;
+    margin-top: 2em;
+    text-align: center;
+}
+}
