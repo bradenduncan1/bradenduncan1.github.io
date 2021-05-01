@@ -1,0 +1,6 @@
+@media(min-width: 1em) {}
+img {
+    float: right;
+    border: 1px solid;
+    width: 28%;
+}

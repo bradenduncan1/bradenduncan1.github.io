@@ -1,24 +1,28 @@
+h1, h2
+{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
 h1 {
     background-color:slategrey;
     border: 1px solid;
     width:auto;
-    height: 100px;
     padding: 1em;
     text-align: center;
     font-size: 50px;
 }
 
-img {
-    float: right;
-    border: 1px solid;
-}
 
 h2 {
     border-bottom: 1px solid;
     height: 60px;
     font-size: 30px;
 }
-
+.linklist ul li
+{
+    font: black;
+}
 
 footer {
     background-color: slategrey;
